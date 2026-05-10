@@ -1,7 +1,7 @@
 
-🌦️ Weather Data Analysis using Pandas
+**🌦️ Weather Data Analysis using Pandas**
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project focuses on analyzing a real-world weather dataset using Python and the Pandas library. The dataset contains hourly weather observations including temperature, humidity, wind speed, visibility, pressure, and different weather conditions.
 
@@ -9,7 +9,7 @@ The main objective of the project is to perform Exploratory Data Analysis (EDA) 
 
 Through this project, different data analysis techniques such as filtering, grouping, aggregation, statistical analysis, and handling missing values are implemented in a simple and efficient manner.
 
-📂 Dataset Description
+📂 **Dataset Description**
 
 The dataset used in this project is a time-series weather dataset containing hourly recorded weather information.
 
@@ -31,7 +31,8 @@ Temperature variations
 Wind speed distribution
 Humidity levels
 Visibility changes during different weather conditions
-🛠️ Technologies Used
+
+**🛠️ Technologies Used**
 Python 🐍
 
 Python is used as the programming language for performing data analysis and manipulation.
@@ -47,7 +48,7 @@ Grouping and aggregation
 Handling missing values
 Jupyter Notebook
 
-Jupyter Notebook is used as the development environment to write and execute Python code interactively.
+**Jupyter Notebook is used as the development environment to write and execute Python code interactively.**
 
 🔍 Work Done in the Project
 📊 Data Loading and Exploration
@@ -91,7 +92,7 @@ Object/string columns
 Dataset summary using .info()
 data.info()
 
-Provides:
+**Provides:**
 
 Non-null values
 Memory usage
@@ -99,7 +100,7 @@ Datatype summary
 📈 Data Analysis Techniques Used
 🔹 Finding Unique Values
 
-The project identifies unique weather conditions using:
+**The project identifies unique weather conditions using:**
 
 data['Weather Condition'].unique()
 
@@ -147,7 +148,7 @@ Average values were calculated using:
 
 data.mean()
 
-This helps in finding:
+**This helps in finding:**
 
 Average temperature
 Average humidity
@@ -216,7 +217,7 @@ Columns were renamed for better readability using:
 
 data.rename(columns={'Weather':'Weather Condition'})
 
-Renaming improves:
+**Renaming improves:**
 
 Code readability
 Understanding of dataset columns
@@ -243,7 +244,7 @@ Dataset used for analysis.
 
 Project documentation and explanation.
 
-🎯 Conclusion
+**🎯 Conclusion**
 
 This project demonstrates how Python and Pandas can be effectively used for real-world weather data analysis. Various data analysis techniques such as filtering, grouping, aggregation, statistical computation, and handling missing values were successfully implemented.
 
