@@ -13,13 +13,20 @@ Through this project, different data analysis techniques such as filtering, grou
 
 The dataset used in this project is a time-series weather dataset containing hourly recorded weather information.
 
-The dataset includes the following attributes:
+The dataset includes the following attributes
+
 Temperature
+
 Dew Point Temperature
+
 Relative Humidity
+
 Wind Speed
+
 Visibility
+
 Pressure
+
 Weather Conditions
 
 Each row in the dataset represents weather information recorded for a specific hour.
@@ -27,9 +34,13 @@ Each row in the dataset represents weather information recorded for a specific h
 The dataset helps in analyzing:
 
 Weather condition trends
+
 Temperature variations
+
 Wind speed distribution
+
 Humidity levels
+
 Visibility changes during different weather conditions
 
 **🛠️ Technologies Used**
@@ -42,15 +53,21 @@ Pandas 📊
 Pandas is the primary library used for:
 
 Data cleaning
+
 Data filtering
+
 Statistical analysis
+
 Grouping and aggregation
+
 Handling missing values
+
 Jupyter Notebook
 
 **Jupyter Notebook is used as the development environment to write and execute Python code interactively.**
 
 🔍 Work Done in the Project
+
 📊 Data Loading and Exploration
 
 The first step in the project was loading the weather dataset into a Pandas DataFrame using:
